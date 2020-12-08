@@ -1,0 +1,39 @@
+/* Custom font */
+@font-face {
+    font-family: Comfortaa;
+    src: url("Comfortaa-Regular (1).ttf") format('truetype');
+}
+@font-face {
+    font-family: Comfortaa;
+    src: url("Comfortaa-Bold (1).ttf") format('truetype');
+    font-weight: bold;
+}
+
+body {
+    /* font-family: sans-serif; */
+    font-family: Comfortaa;
+    background-color: #ffa1a1;
+  }
+.header {
+  margin: auto;
+  font-family: arial;
+  padding: 1px;
+  text-align: center;
+  background: #ff6b6b;
+  color: black;
+  font-size: 25px;
+  border-radius: 2px;
+  width: 600px;
+  height: 170px;
+}
+.header:hover {
+  color: white;
+  background-color: #e05151;
+  border-left: 4px solid #FB7C80;
+  transition: .5s;
+}
+p {
+  text-align: center;
+  word-spacing: 1.25px;
+  letter-spacing: 0.01em;
+}
