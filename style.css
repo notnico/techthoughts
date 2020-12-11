@@ -214,3 +214,13 @@ nav {
 	font-size: 35px;
 	color: gray;
 }
+table, th, td {
+	margin: auto;
+	border-collapse: collapse;
+	color: #969696;
+  border: 2px solid white;
+}
+.recenttitle h1 {
+	margin: auto;
+	text-align: center;
+}
